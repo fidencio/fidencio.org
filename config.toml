@@ -1,3 +1,52 @@
-baseURL = "http://example.org/"
+baseURL = "https://fidencio.github.io"
+relativeURLs = true
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Let's talk about ..."
+theme = "minimal"
+googleAnalytics = ""
+
+[params]
+    author = "Fabiano Fidêncio"
+    accent = "#56A3A6"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway"
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["c", "python", "vala", "bash", "xml"]
+    copyright = "Does it help you? Pay me a beer next time we meet!"
+
+[[menu.main]]
+    url = "/"
+    name = "home"
+    weight = 1
+
+[[menu.main]]
+    url = "/posts"
+    name = "posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/about"
+    name = "about"
+    weight = 3
+
+[[menu.icon]]
+    url = "mailto:fabiano@fidencio.org"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://gitlab.com/fidencio/"
+    name = "gitlab"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://github.com/fidencio/"
+    name = "github"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://twitter.com/ffidencio/"
+    name = "twitter"
+    weight = 4
