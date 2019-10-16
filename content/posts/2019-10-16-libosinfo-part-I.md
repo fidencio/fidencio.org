@@ -140,7 +140,7 @@ and [Cockpit Machines]
   vendors, management applications can rely on that when setting the default
   resources for an installation.
 
-    - [x] OpenStack Nova
+    - [ ] OpenStack Nova
     - [x] virt-manager
     - [x] GNOME Boxes
     - [x] Cockpit Machines
