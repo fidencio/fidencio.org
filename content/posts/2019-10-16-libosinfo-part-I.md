@@ -85,8 +85,9 @@ Currently the libosinfo project is consumed by big players in the virtual
 machine management environment such as [OpenStack Nova]
 (https://docs.openstack.org/nova/latest/), [virt-manager]
 (https://virt-manager.org), [GNOME Boxes] (https://wiki.gnome.org/Apps/Boxes),
-and [Cockpit Machines]
-(https://cockpit-project/guide/latest/feature-virtualmachines).
+[Cockpit Machines]
+(https://cockpit-project/guide/latest/feature-virtualmachines), and [KubeVirt]
+(https://kubevirt.io).
 
 #### ... a little bit about them ...
 
@@ -105,6 +106,8 @@ and [Cockpit Machines]
   (https://cockpit-project.org/) extension to manage virtual machines running
   on the host.
 
+* [KubeVirt] (https://kubevirt.io/): Virtual Machine Management on Kubernetes.
+
 #### ... and why they use it
 
 * **Download ISOs**: As libosinfo provides the ISO URLs, management
@@ -115,6 +118,7 @@ and [Cockpit Machines]
     - [ ] virt-manager
     - [x] GNOME Boxes
     - [ ] Cockpit Machines
+    - [ ] KubeVirt
 
 * **Automatically detect the ISO being used**: As libosinfo can detect the
   operating system of an ISO, management applications can use this info to
@@ -125,6 +129,7 @@ and [Cockpit Machines]
     - [x] virt-manager
     - [x] GNOME Boxes
     - [x] Cockpit Machines
+    - [ ] KubeVirt
 
 * **Start tree installation**: As libosinfo provides the tree installation
   URLs, management applications can use it to start a network-based
@@ -134,6 +139,7 @@ and [Cockpit Machines]
     - [x] virt-manager (via virt-install)
     - [ ] GNOME Boxes
     - [x] Cockpit Machines
+    - [ ] KubeVirt
 
 * **Set reasonable default values for RAM, CPU, and disk resources**: As
   libosinfo knows the values that are recommended by the operating system's
@@ -144,6 +150,7 @@ and [Cockpit Machines]
     - [x] virt-manager
     - [x] GNOME Boxes
     - [x] Cockpit Machines
+    - [x] KubeVirt
 
 * **Automatically set the hardware supported**: As libosinfo provides the list
   of hardware supported by an operating system, management applications can
@@ -154,6 +161,7 @@ and [Cockpit Machines]
     - [x] virt-manager
     - [x] GNOME Boxes
     - [x] Cockpit Machines (via virt-install)
+    - [ ] KubeVirt
 
 * **Unattended install**: as libosinfo provides unattended installations
   scripts for CentOS, Debian, Fedora, Fedora Silverblue, Microsoft Windows, 
@@ -166,6 +174,7 @@ and [Cockpit Machines]
     - [x] GNOME Boxes (only supports "Workstation" installations)
     - [ ] Cockpit Machines (this is still a [work-in-progress]
           (https://github.com/cockpit-project/cockpit/pull/12716))
+    - [ ] KubeVirt
 
 ### What's next?
 
