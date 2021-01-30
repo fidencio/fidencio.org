@@ -52,7 +52,7 @@
                                        |
                                        |
                                        |  +--------------------------------+
-                                       |  |      Jul 2016 - Sep 2018       |
+                                       |  |      Jul 2016 - Aug 2018       |
                                        o--|        SSSD developer,         |
                                        |  |  Fleet Commander collaborator  |
                                        |  |                                |
