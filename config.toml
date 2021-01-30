@@ -42,13 +42,13 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.icon]]
-    url = "https://gitlab.com/fidencio/"
-    name = "gitlab"
+    url = "https://github.com/fidencio/"
+    name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://github.com/fidencio/"
-    name = "github"
+    url = "https://gitlab.com/fidencio/"
+    name = "gitlab"
     weight = 3
 
 [[menu.icon]]
