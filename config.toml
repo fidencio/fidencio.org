@@ -27,9 +27,14 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
+    url = "/cv"
+    name = "cv"
+    weight = 3
+
+[[menu.main]]
     url = "/about"
     name = "about"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "mailto:fabiano@fidencio.org"
